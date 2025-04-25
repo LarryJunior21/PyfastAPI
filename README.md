@@ -31,24 +31,18 @@ Before running this application, ensure you have the following installed:
 
 ## Setup
 
-1. Clone this repository:
+1. Clone or Fork this repository:
    ```bash
-   git clone https://github.com/yourusername/fastapi-supabase-docker.git
-   cd fastapi-supabase-docker
+   git clone https://github.com/LarryJunior21/PyfastAPI.git
+   cd PyfastAPI
    ```
 
 2. Create a `.env` file in the root directory of the project with the following content:
 
    ```env
-   # Supabase Environment Variables
-   SUPABASE_URL=https://your-supabase-project-url.supabase.co
-   SUPABASE_ANON_KEY=your-anon-key
-   SUPABASE_SERVICE_KEY=your-service-role-key
-
-   # FastAPI Configuration
+   # Configuration
    SECRET_KEY=your-jwt-secret-key
    ALGORITHM=HS256
-   ACCESS_TOKEN_EXPIRE_MINUTES=30
    EXPECTED_AUDIENCE=authenticated
    ```
 
